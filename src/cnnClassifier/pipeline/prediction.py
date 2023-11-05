@@ -28,3 +28,5 @@ class PredictionPipeline:
         else:
             prediction = 'Normal'
             return [{ "image" : prediction}]
+        
+
